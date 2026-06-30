@@ -1,7 +1,7 @@
 # PixelForge Converter v2.2
 
 <p align="center">
-  <img src="https://i.ibb.co/..." width="100%">
+  <img src="https://i.ibb.co/XrTxyCkn/2026-06-30-180157-copy.png" width="100%">
 </p>
 
 A modern image conversion tool built with **Python (PySide6)** featuring a clean Steam-inspired interface.
