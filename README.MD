@@ -4,13 +4,31 @@
   <img src="https://i.ibb.co/XrTxyCkn/2026-06-30-180157-copy.png" width="100%">
 </p>
 
-A modern image conversion tool built with **Python (PySide6)** featuring a clean Steam-inspired interface.
+<p align="center">
+A modern image conversion tool built with <b>Python (PySide6)</b>, featuring a clean Steam-inspired interface.
+</p>
 
-PixelForge Converter supports batch image conversion, GIF frame extraction, video-to-GIF conversion, and full DDS compression (BC1 / BC3 / BC5) without requiring any external DDS tools.
+PixelForge Converter is an all-in-one image conversion utility that supports batch image conversion, GIF frame extraction, video-to-GIF conversion, and full DDS compression (BC1 / BC3 / BC5) without requiring external DDS tools.
 
 ---
 
-# Features
+# ✨ Highlights
+
+- ✅ Standalone executable (No installation required)
+- ✅ Modern Steam-inspired UI
+- ✅ Batch image conversion
+- ✅ Full DDS support (BC1 / BC3 / BC5)
+- ✅ GIF frame extraction
+- ✅ Video → GIF / Image Sequence
+- ✅ Estimated GIF size
+- ✅ Drag & Drop support
+- ✅ Multi-threaded processing
+- ✅ Multi-language interface
+- ✅ Automatic settings saving
+
+---
+
+# 📸 Features
 
 ## Image Conversion
 
@@ -28,14 +46,14 @@ Supports converting between:
 Features:
 
 - Batch conversion
-- Drag & Drop
 - Folder conversion
+- Drag & Drop
 - Multi-threaded processing
 - No UI freezing
 
 ---
 
-## Full DDS Support
+## DDS Support
 
 Built-in DDS encoder using Pillow BCN.
 
@@ -47,13 +65,13 @@ Available formats:
 - BC5
 - Uncompressed
 
-No external DDS tools required.
+No external DDS tools are required.
 
 ---
 
-## GIF Frame Extraction
+## GIF Frames
 
-Extract every frame from GIF files.
+Extract every frame from GIF animations.
 
 Export formats:
 
@@ -67,13 +85,13 @@ Export formats:
 
 Supports:
 
-- All frames
+- Export all frames
 - Custom frame range
 - Automatic numbering
 
 ---
 
-## Video → GIF / Image Sequence
+## Video → GIF / Frames
 
 Convert videos into:
 
@@ -94,32 +112,32 @@ Supported video formats:
 - MPG
 - MPEG
 
-GIF settings include:
+GIF options include:
 
 - FPS
 - Width
 - Loop count
 - Palette size
 - Dithering
-- Optimize
 - Transparency
+- Optimization
 
 ---
 
 ## Estimated GIF Size
 
-Before converting a video, PixelForge generates a short sample using your selected settings and estimates:
+Before converting a video, PixelForge creates a short sample using your selected settings to estimate:
 
 - Final dimensions
-- Total frames
-- Expected file size
+- Frame count
+- Expected output size
 - Low / High prediction range
 
-This provides a much more realistic estimate than checking a single frame.
+This provides a much more accurate estimate than checking a single frame.
 
 ---
 
-# Supported Languages
+# 🌍 Supported Languages
 
 PixelForge currently includes six languages:
 
@@ -130,39 +148,38 @@ PixelForge currently includes six languages:
 - 🇪🇸 Español
 - 🇩🇪 Deutsch
 
-The selected language is automatically saved and restored on startup.
+The selected language is automatically saved and restored every time you launch the application.
 
 ---
 
-# Installation
+# 🚀 Getting Started
 
-```bash
-pip install PySide6 Pillow
+Simply download **PixelForge Converter.exe**, extract the archive if needed, and run:
+
+```
+PixelForge Converter.exe
 ```
 
-## Requirements
+No installation is required.
 
-| Library | Purpose |
-|----------|----------|
-| PySide6 | User Interface |
-| Pillow | Image Processing + DDS |
-| FFmpeg | Required only for the Video tab |
+---
 
-If FFmpeg is missing, only the Video tab will be disabled.
+# 💻 Requirements
+
+- Windows 10 (64-bit)
+- Windows 11 (64-bit)
+
+The application is completely standalone.
+
+**FFmpeg is only required if you want to use the Video tab.**
+
+If FFmpeg is not found, only the Video features will be unavailable.
 
 Everything else works normally.
 
 ---
 
-# Run
-
-```bash
-python image_converter_pro.py
-```
-
----
-
-# Keyboard Shortcuts
+# ⌨ Keyboard Shortcuts
 
 | Shortcut | Action |
 |-----------|--------|
@@ -176,31 +193,33 @@ python image_converter_pro.py
 
 ---
 
-# Virus Scan
+# 🛡 Virus Scan
 
-Since **PixelForge Converter is written entirely in Python**, some antivirus engines may incorrectly flag the executable as a **False Positive**, especially when packaged with tools such as PyInstaller.
+PixelForge Converter is written entirely in **Python** and distributed as a standalone executable.
+
+Because Python applications are commonly packaged using tools such as **PyInstaller**, some antivirus engines may incorrectly detect them as **False Positives**. This is unfortunately common with many Python applications and does **not** automatically mean the program is malicious.
 
 You can verify the executable yourself using VirusTotal:
 
 https://www.virustotal.com/gui/file/c3e9227cba0d11378f27bacaef495ff9f484fbbf9eb110f940ae1e5f74cae440?nocache=1
 
-If you don't trust the application or the scan results, **please don't download or run it.**
+If you don't trust the application or you're not comfortable with the scan results, **please don't download or run it.**
 
-Always verify software yourself before executing it.
+Always verify software before executing it.
 
 ---
 
-# Credits
+# ❤️ Credits
 
 Developed by **CONTROL**
 
-Discord
+### Discord
 
 ```
 control69
 ```
 
-More projects:
+### More Projects
 
 https://pay2win-store.vercel.app/
 
@@ -208,4 +227,10 @@ https://metin2.dev/profile/32316-control/
 
 ---
 
-Please keep the original credits if you redistribute this project.
+## License
+
+Feel free to use this application for personal or commercial purposes.
+
+If you redistribute it, please keep the original credits.
+
+⭐ If you like the project, consider leaving a star.
