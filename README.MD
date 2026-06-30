@@ -1,7 +1,7 @@
 # PixelForge Converter v2.2
 
 <p align="center">
-  <img src="https://i.ibb.co/XrTxyCkn/2026-06-30-180157-copy.png" width="100%">
+  <img src="https://i.ibb.co/hJ1Y8scX/8b2c08db7688.png" width="100%">
 </p>
 
 <p align="center">
